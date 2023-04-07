@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakamega Land Information</title>
+    <link rel="stylesheet" href="resources/ol/ol.css">
+
+</head> 
+<body>
+    <h1><i>Kakamega Land Information</i></h1>
+    <div id="map"></div>
+    <div id="scale-line"></div>
+    <div id="layer-switcher">
+        <label><input type="checkbox" checked><b>Core_Urban</b></label><br>
+        <label><input type="checkbox" checked><b>Old_Town</b></label><br>
+        <label><input type="checkbox" checked><b>OSM</b></label><br>
+        <label><input type="checkbox" checked><b>Satellite Imagery</b></label><br>
+    </div>
+
+    <div id="search" class="ol-search">
+        <input type="text" placeholder="Search">
+        <button><i class="fa fa-search"></i>Search</button>
+    </div>
+
+    <script src="resources/ol/ol.js"></script>
+
+</body>
+</html>
